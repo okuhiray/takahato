@@ -16,10 +16,19 @@ function setup() {
 }
 
 function draw() {
+<<<<<<< HEAD
   background(0);
   plants.update();
   plants.draw();
   textSize(32);
   fill(255);
   text(plants.size, 10, 50);
+=======
+  background(255);
+  if(mouseIsPressed){
+    creature.move();
+    creature.draw();   
+  }  
+>>>>>>> develop
 }
+
