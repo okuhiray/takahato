@@ -27,8 +27,13 @@ function draw() {
   background(255);
   if(mouseIsPressed){
     creature.move();
+<<<<<<< HEAD
     creature.draw();   
   }  
+>>>>>>> develop
+=======
+    creature.draw();
+  }
 >>>>>>> develop
 }
 

@@ -66,12 +66,21 @@ class Plant {
     circle(this.p.x, this.p.y, this.size);
 =======
     line(0, 0, this.p.x, this.p.y);
+<<<<<<< HEAD
     fill('rgba(255,0,255,0.1)');
+=======
+    fill('rgba(0,255,0,0.1)');
+>>>>>>> develop
     for (const w of this.wait) {
       circle(w.x, w.y, 200);
     }
+<<<<<<< HEAD
     circle(this.p.x, this.p.y, 200);
     fill('rgba(255,0,255,0.1)');
+>>>>>>> develop
+=======
+    circle(this.p.x, this.p.y, 100);
+    fill('rgba(0,255,0,0.1)')
 >>>>>>> develop
   }
 }
