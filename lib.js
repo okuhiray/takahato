@@ -28,11 +28,14 @@ class Creature {
       }
     }
   }
+
   draw() {
     line(0, 0, this.p.x, this.p.y);
+    fill('rgba(255,0,255,0.1)');
     for (const w of this.wait) {
-      circle(w.x, w.y, 100);
+      circle(w.x, w.y, 200);
     }
-    circle(this.p.x, this.p.y, 100);
+    circle(this.p.x, this.p.y, 200);
+    fill('rgba(255,0,255,0.1)');
   }
 }

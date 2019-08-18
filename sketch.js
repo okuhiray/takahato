@@ -12,6 +12,9 @@ function setup() {
 
 function draw() {
   background(255);
-  creature.move();
-  creature.draw();
+  if(mouseIsPressed){
+    creature.move();
+    creature.draw();   
+  }  
 }
+
